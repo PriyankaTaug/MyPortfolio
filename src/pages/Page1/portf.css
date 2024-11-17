@@ -1,0 +1,122 @@
+/* Reset body and html margin/padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Make the .port-div cover the full screen */
+.port-div {
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #123524; /* Background color */
+  display: flex; /* Flexbox for centering content */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+/* Styling for the header text */
+.port-header {
+  color: white;
+  font-size: 30px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  font-family: 'Poppins', sans-serif;
+  position: fixed; /* Fix it to the top-left corner */
+  top: 20px;
+  left: 20px;
+  margin: 30px;
+}
+
+/* Flex container for the main content */
+.port-content {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between; /* Space between the left and right sections */
+  align-items: center; /* Vertically center content */
+  margin-top: 80px; /* Offset for the fixed header */
+  width: 100%; /* Full width */
+}
+
+/* Left section with text */
+.port-left {
+  flex: 1; /* Allow this section to take available space */
+  color: white;
+  position: relative;
+  top:65px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.port-subcontent h1, .port-subcontent h3, .port-p p {
+  margin: 25px 0;
+}
+
+/* Right section for image */
+.port-right {
+  position: absolute; /* Fix it to the right side of the screen */
+  right: 0; /* Align it to the right end */
+  top: 100px; /* Adjust vertical positioning */
+  display: flex;
+  justify-content: center; /* Center the image horizontally within the right section */
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 30px;
+}
+.port-image {
+  width: 80%; /* Control image size */
+  max-width: 400px; /* Maximum width */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Styling for the subcontent text */
+.port-subcontent h1 {
+  font-size: 36px;
+}
+
+.port-subcontent h3 {
+  font-size: 58px;
+}
+
+.port-p p {
+  font-size: 18px;
+  max-width: 600px;
+}
+.port-experience {
+  background-color:white;
+  width: 250px;
+  height: 60px;
+  position: relative;
+  bottom: 200px;
+  right:200px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.port-experience2 {
+  background-color:white;
+  width: 170px;
+  height: 50px;
+  position: relative;
+  bottom: 500px;
+  left:110px;
+  margin-top: 150px;
+  border-radius: 20px;
+}
+.port-button
+{
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+}
+.exp1
+{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.exps
+{
+  margin-left: 60px;
+}
